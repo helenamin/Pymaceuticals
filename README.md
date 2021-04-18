@@ -1,16 +1,12 @@
-# Matplotlib Homework - The Power of Plots
+# Pymaceuticals
 
 ## Background
 
  In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. The task is to generate all of the tables and figures needed for the technical report of the study. The executive team also has asked for a top-level summary of the study results.
 
-## Instructions
+## Steps
 
-Thr tasks are to do the following:
-
-* Before beginning the analysis, check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
-
-* Use the cleaned data for the remaining steps.
+* Before beginning the analysis, clean data by checking the data for any mouse ID with duplicate time points and removing any data associated with that mouse ID.
 
 * Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 
@@ -32,5 +28,3 @@ Thr tasks are to do the following:
 * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
 Three observations are included the top of notebook.
-
-Here are some final considerations:
